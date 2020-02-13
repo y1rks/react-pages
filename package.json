@@ -10,14 +10,13 @@
     "react-dom": "^16.12.0",
     "react-scripts": "3.3.1"
   },
-  "homepage": "http://y1rks.github.io/react-pages",
+  "homepage": "https://y1rks.github.io/react-pages/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "npm run build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
